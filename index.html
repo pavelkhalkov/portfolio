@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>CV website</title>
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+          <span>PAVEL KHALKOV</span>
+        </div>
+        <div id="about">
+          <a href="#" title="HOME" onclick="slowScroll('#top')">HOME</a>
+          <a href="#" title="ABOUT ME" onclick="slowScroll('#main')">ABOUT ME</a>
+          <a href="#" title="RESUME" onclick="slowScroll('#Resume')">RESUME</a>
+          <a href="#" title="CONTACTS" onclick="slowScroll('#services')">CONTACTS</a>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+          function slowScroll(id) {
+             $('html,body').animate({
+                 scrollTop: $(id).offset().top
+             }, 800);
+          }  
+
+        $(document).on("scroll", function() {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class","fixed");
+        });
+        </script>
+
+    </header> 
+        <div class="top">
+            <div id="top">
+                <h1 style="padding-top: 280px;padding-left: 180px;"><div data-packed="true" data-vertical-text="false" style="width: 910px; pointer-events: none;"><p class="font_3" style="text-align:center;"><span class="color_11"><span style="letter-spacing:0.5em;">PAVEL KHALKOV</span>
+                </p>
+            </div>
+            </h1>
+                <h3>JUNIOR   QA   ENGINEER</h3>
+            </div>
+        </div>
+     
+        <h1 style="border-left: 1px solid #c1c1c1;
+                height: 60px;
+                position: absolute;
+                left: 49%;
+                color:#f604044d;
+                margin-left: 10px;
+                top: 620px;"></h1>
+
+<div id="main"; style="padding-top: 0px;padding-bottom: 0px;">
+               <div class= "intro" style="padding-top: 90px;">
+               
+<h2 style="font-weight: 100;line-height: 1;font-size: 1em;font-style: italic;letter-spacing: 0em; font-family: Didot W01 Italic; color:#4f4f4f;padding-left: 0px;"> 01 About me </h2><br>
+                <span class="texts">
+                    <ul>
+<li align="justify" style="font-size: 1em;padding-left: 0px;"> Hello everyone! My name is Pavel. I am a Junior QA engineer.</li>
+
+<li align="justify" style="font-size: 1em;padding-left: 0px;">
+I have bachelor’s degree in jurisprudence (commercial law) and have been working as a lawyer for over 8 years.</li><br>
+
+<li align="justify" style="font-size: 1em;padding-left: 0px;">About six months ago, I became interested in the IT and I decided to try my hand at testing. I successfully completed software testing courses, as evidenced by the certificate. The courses at the IT-Academy provided me with excellent basic knowledge my further professional growth in testing and QA engineering.  I have a clear understanding of planning and organizing tests processes, Agile (Scrum, Kanban), knowledge of analyzing test requirements, drawing up and executing checklists, test cases, bug reports, and bug tracking systems.</li><br>
+
+<li align="justify" style="font-size: 1em;padding-left: 0px;">To improve my knowledge, I took courses by Stepik educational platform (Software testing: preparation for ISTQB Foundation certification), as well as the online education service Practicum by Yandex.  I participated in testing of the TunnelBear mobile application: Secure VPN & WiFi (iOS 14).</li>
+
+<li align="justify" style="font-size: 1em;padding-left: 0px;">Now, I continue to improve my English at Streamline language school (just recently I realized how cool it is to watch films in the original language ;) ).</li><br>
+
+<li align="justify" style="font-size: 1em;padding-left: 0px;">I am a team player and I like to explore new things.  I work hard to achieve good results in a fast and dynamic environment.</li>
+</ul>
+              </span>
+            </div>
+        </div>
+                <div class="vl" style="border-left: 1px solid #c1c1c1; height: 60px;position: absolute; left: 50%;margin-left: -3px; position: absolute;top: 1460px;color:#3636362b;"></div>
+   
+                <div id="Resume" style="padding-top: 90px;">
+                <h2 style= "font-weight: 100;line-height: 1;font-size: 1.3em;font-style: italic;letter-spacing: 0em; font-family: Didot W01 Italic; ">02 Resume</h2><br>
+
+      <div class="btn" style="width: 250px;height: 30px;left:; right: auto;left: 800px;padding-left: 0px;padding-right: 0px;"> 
+                 <h2><a class="textdownload" href="img/CV Junior QA Engineer Khalkov.doc" style="font-style: italic;">Download CV</a>
+                </h2>
+            </div> 
+
+            <h3 style="font-weight: 600;font-size: 25px; font-size: 1.3em;padding-left: 115px; color:#4f4f4f;font-style: italic;">Skills</h3><br>
+
+                  <span class="texts">
+                    <ul>
+                        <li style="font-size: 1.3em;padding-left: 115px;">
+                            • Understanding of the software testing processes and its connection with software life cycle;
+                        </li>
+                        <li style="font-size: 1.3em;padding-left: 115px;">
+                            • Knowledge of methods, types and levels of software testing;
+                        </li style="font-size: 1.3em;padding-left: 115px;">
+                        <li style="font-size: 1.3em;padding-left: 115px;">
+                            • Web-, Mobile-testing (iOS, Android);
+                        </li>
+                        <li style="font-size: 1.3em;padding-left: 115px;">
+                            • Creation and updating test documentation (checklists, test cases, test plan, test results reports, bug reports);
+                        </li>
+                        <li style="font-size: 1.3em;padding-left: 115px;">
+                            • Manual testing: Requirements analysis/testing, Black-, White-box testing, Function, Regression, Usability, Localization, Cross-browser/cross-platform, Compatibility, New feature testing, Sanity, Smoke, Acceptance, 
+                            Ad hoc, Pairwise Testing, Performance, Agile testing, GUI testing;
+                        <li style="font-size: 1.3em;padding-left: 115px;">•
+                           Test automation: Selenium IDE;
+                        </li>   
+                    
+                        <li style="font-size: 1.3em;padding-left: 115px;">• Load testing: JMeter; </li>  
+                        <li style="font-size: 1.3em;padding-left: 115px;">• Database: SQL (basic);</li> 
+                        <li style="font-size: 1.3em;padding-left: 115px;">• Tracking systems: Jira, TestRail;</li>
+                        <li style="font-size: 1.3em;padding-left: 115px;">• Virtualization: VMware, VirtualBox;</li>
+<li style="font-size: 1.3em;padding-left: 115px;">
+    • Estimation;</li>
+    <li style="font-size: 1.3em;padding-left: 115px;">• Other: HTML5/CSS3/Javascript (basic), Sublime Text 3, Android Studio;</li>
+<li style="font-size: 1.3em;padding-left: 115px;">• Soft skills.</li><br> 
+                    <li style="font-size: 1.3em;padding-left: 115px;">English Proficiency: Pre-Intermediate + (A2). I continue to improve my English at Streamline language school (Intermediate, B1), September 2020 - till present.</li>  
+                    </ul>
+                </span>
+        </div>
+                
+      <h3 style="font-weight: 600;font-size: 25px; font-size: 1.3em;padding-left: 115px; color:#4f4f4f;font-style: italic;">Education</h3><br>
+        <span class="texts">
+                   
+<h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f"> August 2020 - Educational platform and online courses «Stepik»</h3>
+   <h4 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Software testing: preparation for ISTQB Foundation certification
+</h4><br>
+                     <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">May 2020 – August 2020 - Educational Center for Programming and High Tech (IT-Academy)</h3>
+                    <h4 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">QA Engineer</h4><br>
+
+                    <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">September 2008 - June 2013 - Vitebsk state university named after P.M. Masherova</h3>
+                    <h3  style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Bachelor’s Degree, Law faculty</h3><br> 
+                           
+        <h2 style="font-weight: 600;font-size: 25px; font-size: 1.3em;padding-left: 115px; color:#4f4f4f;font-style: italic;">Work experience</h2><br>
+
+ <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f; line-height: 1.6;">October 2020 - TunnelBear mobile application: Secure VPN & WiFi (iOS 14). This app protects your online privacy, lets you access your favorite websites & apps, and secures your connection on public WiFi hotspots.</h3>
+                            <h4  style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 1.6;font-style: italic;">Project Role: Tester. <br> • Black box testing • Functional testing • Regression testing</h4>
+                            <br>
+                   
+<h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">May 2020 – August 2020 - Educational Center for Programming and High Tech (IT-Academy)</h3>
+<h4  style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Course: Functional software testing.
+Project: https://www.likar.info/. Medical information and reference portal. 
+Project Role: Tester.</h4>
+<ul>
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f"> • Writing Checklists, Test cases, Bug reports;</li> 
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f"> • Functional testing; </li> 
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;">• Cross Platform Testing and Cross Browser Testing;</li>
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;">• GUI Testing;</li>
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;">• Load Testing;</li>
+<li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;">• Test Result Report creation. 
+</li></ul><br>
+
+            <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">June 2019 – present - International pharmaceutical company «NATIVITA»</h3>
+                            
+                            <h4  style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Position: Specialist for the development of foreign markets</h4><br>
+                            <ul> 
+                            <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                Drafting of contracts with foreign partners (NDA, delivery, exclusive agreements, etc.); 
+                            </li>
+                            <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                Registration and supply of medicines in the CIS countries;
+                            </li>
+                            <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                Preparation documents for the shipment of medicines;
+                            </li>
+                            <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                Performing analysis of the pharmaceutical market.
+                            </li><br>
+                                 </ul>               
+                                <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">April 2016 – June 2019 - International pharmaceutical company «NATIVITA»
+                                </h3>
+                                <h4 
+
+                                 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Position: Lead legal advisor</h4><br>
+                                 <ul>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    External economic activity (support of international projects, interaction with foreign partners); 
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Intellectual property (National and Madrid system of registration of rights to trademarks); 
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Preparation and support of real estate transactions;
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                               Protection of the company's interests in court.
+                                </li></ul><br>
+                          
+                                <h3 style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">January 2015 – April 2016 - Republican Unitary Enterprise of Electric Power Industry «Vitebskenergo»</h3>
+                                <h4  style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f;line-height: 2;font-style: italic;">Position: Legal advisor</h4><br>
+                                <ul>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Сorporate law; 
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Legal registration and conclusion of contracts with contractors;
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Recovery of accounts receivable;
+                                </li>
+                                <li style="font-size: 1.3em;padding-left: 115px;color:#4f4f4f">•
+                                    Conducting public procurement.
+                                </li>
+                            </ul>
+                </span>
+            </div>
+            <div class="img">
+            </div>
+        </div><br>
+          
+<div class="vl" style="border-left: 1px solid #c1c1c1; height: 60px;position: absolute; left: 50%;margin-left: -3px;top: 3940px; color:#f604044d"></div>
+
+            <footer id="services" class="services">
+            <div id="services" class="wrapper"; style="padding-top: 60px;margin-left: 205px;">
+           
+<h2 style="font-size: 1.3em;letter-spacing: 0.2em;line-height: 1; margin-right: 0px; padding-right: 0px;  font-weight: 100;font-style: italic;letter-spacing: 0em; font-family: Didot W01 Italic; color:#4f4f4f;padding-top: 0px;">03 Let's talk</h2>
+
+                <ul class="marker">
+                    <li><a href="tel:+375(33) 33 66 388>"><strong>Call:</strong> +375(33) 33 66 388</a></li>
+                    <li><strong>Write:</strong> pavel.khalkov@mail.ru</li>
+                    <li><strong>Social network:</strong></li>
+                    <div class="ikons">
+                        <a  href="https://www.linkedin.com/in/pavelkhalkov/?hl=ru"><img class="socialnet" src="img/LinkedIn.png">
+                        </a>
+                        <a  href="https://www.instagram.com/pavel_khalkov/?hl=ru"><img class="socialnet" src="img/instagram_f_icon-icons.com_65485.png">
+                        </a>
+                </div>
+                </ul>
+            </div>
+        </footer>
+</body>
+</html>       
+
+
+
+
